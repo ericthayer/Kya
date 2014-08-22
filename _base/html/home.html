@@ -1,0 +1,290 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="images/touch-icons/favicon-144.png">
+    <title>Anything Slider Demo</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="images/touch-icons/favicon-152.png">
+    <link rel="stylesheet" href="css/screen.css">
+    <script src="resources/bower_components/sprockets-modernizr/modernizr.js"></script>
+  </head>
+  <body>
+    <!-- OUTER PAGE WRAP -->
+    <div class="outer-page-wrap">
+      <!-- PAGE WRAP -->	
+      <div class="page-wrap">
+        <!-- MAIN NAV *FIXED* -->
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <div type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </div>
+              <!-- MOBILE SEARCH -->
+              <div class="visible-xs search mobile">
+                <div class="collapsed" data-toggle="collapse" data-target=".search-collapse"><span class="open-search">&#xf002;</span><span class="close-search">&#xf106;</span></div>
+              </div>
+              <a class="visible-xs navbar-brand" href="/"><img src="images/logo-mobile.png" alt="NavNeighbors :: Next Door to Everywhere"></a>
+            </div>
+            <div class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li>
+                  <a href="index.html">
+                    <i class="fa fa-home"></i>
+                    <span>
+                      <em>Home</em>
+                      <div class="hidden-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="about.html">
+                    <i class="fa fa-info-circle"></i>
+                    <span>
+                      <em>About</em>
+                      <div class="hidden-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="blog.html">
+                    <i class="fa fa-book"></i>
+                    <span>
+                      <em>Blog</em>
+                      <div class="hidden-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="events.html">
+                    <i class="fa fa-calendar"></i>
+                    <span>
+                      <em>Events</em>
+                      <div class="hidden-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="resources.html">
+                    <i class="fa fa-wrench"></i>
+                    <span>
+                      <em>Resources</em>
+                      <div class="hidden-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="contact.html">
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                      <em>Contact</em>
+                      <div class="hidden-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                    </span>
+                  </a>
+                </li>
+                <li class="active">
+                  <a href="donate.html">
+                    <i class="fa fa-heart"></i>
+                    <span>
+                      <em>Donate</em>
+                      <div class="hidden-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- LOGIN, SOC NET ICONS, SEARCH (> TABLET) -->
+            <div class="hidden-xs navbar-content">
+              <div class="hidden-xs search">
+                <div class="searchBox">
+                  <input type="text" maxlength="1000">
+                  <input type="submit" class="search_btn" value="">					  
+                </div>
+              </div>
+            </div>
+            <div class="search search-collapse collapse" style="height: 0px;">
+              <div class="search-wrap">
+                <div class="searchBox">			      				
+                  <label style="display:none;">Search for:</label>
+                  <input type="text" maxlength="1000" class="search-box clearMeFocus">
+                  <input type="submit" value="" class="search_btn">				  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- PAGE HEADER -->
+        <header id="header">
+          <div class="container">
+            <!-- HEADER LINKS (< TABLET) -->
+            <div class="col-xs-12 header-links">
+              <div class="wrap">
+                <div class="login">
+                  <div class="user-login" href="#">
+                    <i class="fa fa-user">&nbsp;</i>
+                    <div id="user">			    
+                      <span>John</span>
+                      <a href="#">Edit Profile</a>
+                      <a class="signoutLink" href="#">Sign Out</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="soc-media-links"><a href=""><img src="images/icons/icon-fb.png" alt="Facebook"></a><a href=""><img src="images/icons/icon-twitter.png" alt="Twitter"></a><a href=""><img src="images/icons/icon-youtube.png" alt="Youtube"></a></div>
+              </div>
+            </div>
+            <div class="hidden-xs col-xs-12 logo">
+              <h1><a href=""><img src="images/logo-desktop.png" alt="NavNeighbors :: Next Door to Everywhere"></a></h1>
+            </div>
+          </div>
+        </header>
+        <!-- CONTENT *HOME* -->
+        <section id="content">
+          <div class="container home">
+            <!-- CONTENT WRAP -->
+            <div class="row content-wrap">
+              <!-- SLIDER & WELCOME PANEL -->
+              <div class="feature-block">
+                <div class="col-sm-12 col-md-7 slider-wrap">
+                  <ul id="slider">
+                    <!-- Vimeo: iframe -->
+                    <li><iframe src="http://player.vimeo.com/video/39683393" width="1200" height="675" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></li>
+                    <li>
+                      <img src="images/slider-img-1.jpg" alt="">
+                      <div class="hidden-tiny slider-caption">
+                        <h2><a href="">This is an example of a slider title.</a></h2>
+                        <p class="hidden-xs">Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles.<a class="btn btn-inline" href="">Read more</a></p>
+                      </div>
+                    </li>
+                    <!-- YouTube: iframe -->
+                    <li><iframe title="YouTube video player" width="1200" height="675" src="http://www.youtube.com/embed/QUK6d7x1sM4" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></li>
+                    <li>
+                      <img src="images/slider-img-2.jpg" alt="">
+                      <div class="hidden-tiny slider-caption">
+                        <h2><a href="">This is an example of a slider title.</a></h2>
+                        <p class="hidden-xs">Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles.<a class="btn btn-inline" href="">Read more</a></p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-sm-12 col-md-5 welcome-panel">
+                  <figure><a href=""><img src="images/img-welcome-panel.jpg" alt="img-welcome-panel" alt=""></a></figure>
+                  <h2>Welcome! Please take a look around</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio sed numquam ex ad commodi harum laudantium veniam. Dolores, nihil, ab, magnam sint corporis voluptates commodi eos exercitationem ad similique ullam!</p>
+                  <a class="btn" href="">Read More</a>
+                </div>
+              </div>
+              <!-- BLOG/EVENT POST & RESOURCE LIST -->		   
+              <div class="feature-block">
+                <!-- FEATURE PANEL BOTTOM LEFT -->
+                <div class="col-sm-4 col-md-3 feature-panel-left">
+                  <!-- RECENT POST -->
+                  <div class="content-item recent-blog-post">
+                    <header>Recent Article<i class="fa fa-book"></i></header>
+                    <article class="content-post">
+                      <h2 class="title">Your Post Title goes on this line.</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, fuga dolor voluptas nesciunt quidem nihil maxime veritatis dignissimos veniam consequuntur perspiciatis.</p>
+                      <a href="" class="btn">Read Post</a>
+                    </article>
+                  </div>
+                </div>
+                <!-- FEATURED RESOURCES -->
+                <div class="col-sm-8 col-md-9 featured-resources">
+                  <div class="col-ms-4 col-sm-12 col-md-4 promo-box">
+                    <h2>Get Involved</h2>
+                    <i class="fa fa-arrow-circle-right"></i>
+                  </div>
+                  <div class="col-ms-8 col-sm-12 col-md-8 featured-resource-list">
+                    <header>Featured Resources<i class="fa fa-wrench"></i></header>
+                    <ul>
+                      <li><a href=""><i class="fa fa-angle-double-right"></i> Advancing the Gospel Study</a></li>
+                      <li><a href=""><i class="fa fa-angle-double-right"></i> Integrity for Leaders</a></li>
+                      <li><a href=""><i class="fa fa-angle-double-right"></i> Professionalism is the New Normal</a></li>
+                      <li><a href=""><i class="fa fa-angle-double-right"></i> Old Testament Teams</a></li>
+                    </ul>
+                    <div class="btn">View All</div>
+                  </div>
+                </div>
+              </div>
+              <!-- END / FEATURES -->
+            </div>
+            <!-- END / CONTENT WRAP -->
+          </div>
+        </section>
+        <!-- PAGE FOOTER -->           
+        <footer id="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-4 footer-logo">
+                <div class="footer-logo-img"><a href="#"><img src="images/footer-nav-logo.png" alt="Navigators.org"></a></div>
+                <div class="tag-line"><a href="#">To Know Christ and to Make Him Known<span>&reg;</span></a></div>
+                <address>
+                  PO Box 6000, Colorado Springs, CO 80934-6000<br>
+                  Phone: <a href="tel:719-598-1212">719-598-1212</a>, Fax: <a href="">719-260-0479</a><br>
+                  Email: <a href="mailto:info@navigators.org">info@navigators.org</a>
+                </address>
+              </div>
+              <nav class="col-sm-2 footer-nav">
+                <h4>Navigation</h4>
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Events</a></li>
+                  <li><a href="#">Resources</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Donate</a></li>
+                </ul>
+              </nav>
+              <nav class="col-sm-3 footer-nav">
+                <h4>Navigator Sites</h4>
+                <ul>
+                  <li><a href="#">The Navigators</a></li>
+                  <li><a href="#">Navigator Ministries</a></li>
+                  <li><a href="#">Navigator Resources</a></li>
+                  <li><a href="#">Glen Eyrie Conference Center</a></li>
+                  <li><a href="#">NavPress</a></li>
+                  <li><a href="#">NavConnect</a></li>
+                </ul>
+              </nav>
+              <div class="col-sm-3 footer-contact">
+                <h4>Contact Us</h4>
+                <address>
+                  The Navigators, NavConnect<br>
+                  3820 N 30th Street<br>
+                  Colorado Springs, CO 80904<br>
+                </address>
+                <nav>
+                  <ul>
+                    <li>Email: <a href="mailto:">enews@navigators.org</a></li>
+                    <li>&nbsp;</li>
+                    <li><a href="#">Privacy Policy/Terms of Use</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- COPYRIGHT -->
+        <div class="copyright">
+          <div class="container">
+            <div class="col-xs-12">
+              <p>&copy;<span>2014</span> The Navigators&reg; All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END / PAGE WRAP -->
+    </div>
+    <!-- END / OUTER PAGE WRAP -->
+    <script src="resources/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="resources/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/min/plugins.min.js"></script> 
+    <script src="js/min/script.min.js"></script>
+  </body>
+</html>

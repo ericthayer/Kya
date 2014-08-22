@@ -1,0 +1,81 @@
+/*---------------- Kya Logo Font Review --------------------*/
+
+// Webfont Reference
+
+@import url('http://fonts.googleapis.com/css?family=Raleway:400,700|Montserrat:400,700|Open+Sans:400italic,700italic,400,700');
+
+@import url('http://fonts.googleapis.com/css?family=Alfa+Slab+One|Nixie+One|Arbutus+Slab|Noto+Sans|Cabin|Fauna+One|ABeeZee|Oldenburg|Syncopate|Molle:400italic|Wendy+One|Kameron|Copse|Muli|Candal|Merienda+One|Fjalla+One|Signika|Kaushan+Script|Enriqueta|Damion|Allerta+Stencil|Volkhov|Trocchi|Sansita+One|Alice|Ultra|Quando|Capriola|Expletus+Sans');
+
+.review {
+	h1 {
+		background-color: white;
+		border: 1px solid #DDD;
+		color: #2d912d;
+		font-size: 3.5em;
+		margin: 1.5em auto;
+		padding: 15px;
+		text-align: center;
+		width: 85%;
+		span {
+			display: block;
+			margin: 15px 0;
+		}
+		span:last-child {
+			&:after {
+				color: #444;
+				display: block;
+				font: 14px arial;
+				margin-top: 25px;
+			}
+		}
+		em {font-style: normal;}
+		@media (min-width: $break-lg-phone) {font-size: 2em;}
+	}
+}
+
+.f1 {
+	font-family: 'Alfa Slab One', cursive;
+	span {
+		font-size: 80px;
+		&:after {content:'[ Alfa Slab One ]'}
+	}
+}
+.f2 {font-family: 'Nixie One', cursive;}
+.f3 {
+	font-family: 'Arbutus Slab', serif;
+	span {
+		&:after {content:'[ Arbutus Slab ]'}
+	}
+}
+.f4 {font-family: 'Noto Sans', sans-serif;}
+.f5 {font-family: 'Cabin', sans-serif;}
+.f6 {font-family: 'Fauna One', serif;}
+.f7 {font-family: 'ABeeZee', sans-serif;}
+.f8 {font-family: 'Oldenburg', cursive;}
+.f9 {font-family: 'Syncopate', sans-serif;}
+.f10 {
+	font-family: 'Molle', cursive;
+	span {
+		&:after {content:'[ Molle ]'}
+	}
+}
+.f11 {font-family: 'Wendy One', sans-serif;}
+.f12 {font-family: 'Kameron', serif;}
+.f13 {font-family: 'Copse', serif;}
+.f14 {font-family: 'Muli', sans-serif;}
+.f15 {font-family: 'Candal', sans-serif;}
+.f16 {font-family: 'Merienda One', cursive;}
+.f17 {font-family: 'Fjalla One', sans-serif;}
+.f18 {font-family: 'Signika', sans-serif;}
+.f19 {font-family: 'Kaushan Script', cursive;}
+.f20 {font-family: 'Enriqueta', serif;}
+.f21 {font-family: 'Damion', cursive;}
+.f22 {font-family: 'Allerta Stencil', sans-serif;}
+.f23 {font-family: 'Volkhov', serif;}
+.f24 {font-family: 'Trocchi', serif;}
+.f25 {font-family: 'Sansita One', cursive;}
+.f26 {font-family: 'Alice', serif;}
+.f27 {font-family: 'Ultra', serif;}
+.f28 {font-family: 'Quando', serif;}
+.f29 {font-family: 'Capriola', sans-serif;}
+.f30 {font-family: 'Expletus Sans', cursive;}

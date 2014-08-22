@@ -1,0 +1,102 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="images/touch-icons/favicon-144.png">
+    <title>Photo Gallery</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="images/touch-icons/favicon-152.png">
+    <link rel="stylesheet" href="css/screen.css">
+    <script src="http://mockupreview.navigators.org/MissionTemplate/resources/bower_components/sprockets-modernizr/modernizr.js"></script>
+  </head>
+  <body style="padding:0; margin:0 auto">
+    <!-- GALLERY (Photos) -->
+    <div class="container popup gallery">
+      <div class="row">
+        <!-- PAGE TITLE -->
+        <div class="col-xs-12 page-title">
+          <h1>Gallery Name</h1>
+        </div>
+        <!-- PHOTOS -->            
+        <div class="col-xs-12 module photos">
+          <!-- IMAGE SELECT ** Bootstrap 3 & FancyBox ** http://fancyapps.com/fancybox/ -->             
+          <div class="image-select">
+            <!-- IMG -->
+            <div class="col-xs-12 col-ms-6 col-sm-4 gallery-image">
+              <a class="thumbnail fancybox" rel="lightbox" href="http://mockupreview.navigators.org/MissionTemplate/images/slider-img-1.jpg"><img class="img-responsive" alt="This is a photo gallery title" src="http://mockupreview.navigators.org/MissionTemplate/images/slider-img-1.jpg" /></a>
+            </div>
+            <!-- IMG -->
+            <div class="col-xs-12 col-ms-6 col-sm-4 gallery-image">
+              <a class="thumbnail fancybox" rel="lightbox" href="http://mockupreview.navigators.org/MissionTemplate/images/slider-img-2.jpg"><img class="img-responsive" alt="This is a photo gallery title" src="http://mockupreview.navigators.org/MissionTemplate/images/slider-img-2.jpg" /></a>
+            </div>
+            <!-- IMG -->
+            <div class="col-xs-12 col-ms-6 col-sm-4 gallery-image">
+              <a class="thumbnail fancybox" rel="lightbox" href="http://mockupreview.navigators.org/MissionTemplate/images/slider-img-3.jpg"><img class="img-responsive" alt="This is a photo gallery title" src="http://mockupreview.navigators.org/MissionTemplate/images/slider-img-3.jpg" /></a>
+            </div>
+            <!-- IMG -->
+            <div class="col-xs-12 col-ms-6 col-sm-4 gallery-image">
+              <a class="thumbnail fancybox" rel="lightbox" href="http://mockupreview.navigators.org/MissionTemplate/images/slider-img-4.jpg"><img class="img-responsive" alt="This is a photo gallery title" src="http://mockupreview.navigators.org/MissionTemplate/images/slider-img-4.jpg" /></a>
+            </div>
+            <!-- IMG -->
+            <div class="col-xs-12 col-ms-6 col-sm-4 gallery-image">
+              <a class="thumbnail fancybox" rel="lightbox" href="http://mockupreview.navigators.org/MissionTemplate/images/slider-img-1.jpg"><img class="img-responsive" alt="This is a photo gallery title" src="http://mockupreview.navigators.org/MissionTemplate/images/slider-img-1.jpg" /></a>
+            </div>
+            <!-- IMG -->
+            <div class="col-xs-12 col-ms-6 col-sm-4 gallery-image">
+              <a class="thumbnail fancybox" rel="lightbox" href="http://mockupreview.navigators.org/MissionTemplate/images/slider-img-2.jpg"><img class="img-responsive" alt="This is a photo gallery title" src="http://mockupreview.navigators.org/MissionTemplate/images/slider-img-2.jpg" /></a>
+            </div>
+            <!-- IMG -->
+            <div class="col-xs-12 col-ms-6 col-sm-4 gallery-image">
+              <a class="thumbnail fancybox" rel="lightbox" href="http://mockupreview.navigators.org/MissionTemplate/images/slider-img-3.jpg"><img class="img-responsive" alt="This is a photo gallery title" src="http://mockupreview.navigators.org/MissionTemplate/images/slider-img-3.jpg" /></a>
+            </div>
+            <!-- IMG -->
+            <div class="col-xs-12 col-ms-6 col-sm-4 gallery-image">
+              <a class="thumbnail fancybox" rel="lightbox" href="http://mockupreview.navigators.org/MissionTemplate/images/slider-img-4.jpg"><img class="img-responsive" alt="This is a photo gallery title" src="http://mockupreview.navigators.org/MissionTemplate/images/slider-img-4.jpg" /></a>
+            </div>
+            <!-- IMG -->
+            <div class="col-xs-12 col-ms-6 col-sm-4 gallery-image">
+              <a class="thumbnail fancybox" rel="lightbox" href="http://mockupreview.navigators.org/MissionTemplate/images/slider-img-1.jpg"><img class="img-responsive" alt="This is a photo gallery title" src="http://mockupreview.navigators.org/MissionTemplate/images/slider-img-1.jpg" /></a>
+            </div>
+            <!-- END IMAGES -->		                       
+          </div>
+          <!-- END GALLERY -->
+        </div>
+        <!-- END / MODULE -->
+      </div>
+      <!-- END / ROW -->
+    </div>
+    <!-- END / CONTAINER -->
+    
+    <!-- REQUIRED SCRIPTS -->
+	<script src="http://mockupreview.navigators.org/MissionTemplate//resources/bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="http://mockupreview.navigators.org/MissionTemplate//resources/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="http://mockupreview.navigators.org/MissionTemplate//resources/bower_components/fancybox/source/jquery.fancybox.pack.js"></script>
+	<!-- FANCYBOX CONTROLS -->
+	<script>
+	$(document).ready(function() {
+	    $('.gallery-image a').fancybox({
+	        beforeShow: function() {
+	            var alt = this.element.find('img').attr('alt');
+	            this.inner.find('img').attr('alt', alt);
+	            this.title = alt;
+	        },
+	        openEffect  : 'elastic',
+	        closeEffect : 'fade',
+	        nextEffect  : 'fade',
+			prevEffect  : 'fade',
+	        openSpeed   : 400,
+	        nextSpeed   : 'slow',
+	        prevSpeed   : 'slow',
+	        helpers: {
+	            title: {
+	                type: 'outside'
+	            }
+	        }
+	    });
+	});
+	</script>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+/*---------------- Donate Page Styles --------------------*/
+
+.donate {
+	.btn-link.donate {
+		margin-top: -35px;
+		@media (min-width: $break-lg-phone) {
+			text-align: left;
+		}
+	}
+	a span {
+		background-color: $red-label-bg;
+		font-size: 15px;
+	}
+	a span:after {
+		content: " ";
+		font-size: 17px;
+	}
+}

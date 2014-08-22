@@ -1,0 +1,34 @@
+/* --- Header --- */
+
+#header {
+	background: url(../images/bg-header.jpg) no-repeat center top;
+	background-size: cover;
+	height: 180px;
+	padding-top: 5px;
+	@media (min-width: $break-sm-phone) {height: 150px;}
+	@media (min-width: $break-lg-phone) {height: 266px;}
+}
+
+/* --- Logo --- */
+
+.logo {
+	margin:-10px auto 0;
+	padding: 0;
+	a {
+		display: block; 
+		text-align: center;
+	}
+	h1 {
+		display: inline-block;
+		line-height: normal;
+		margin: 0 auto;
+	}
+	img {max-width: 300px;}
+	@media (min-width: $break-lg-phone) {
+		text-align: center;
+		margin-top: -15px;
+	}
+	@media (min-width: $break-tablet) {
+		/* margin-top: 35px; */
+	}
+}

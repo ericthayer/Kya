@@ -1,0 +1,45 @@
+/*---------------- Layout --------------------*/
+
+/* --- Global --- */
+
+a {color: $secondary-blue;} 
+
+a:hover {text-decoration: none;}
+
+a:focus {outline: 0;}
+
+html {
+	background: url("../images/bg-body.png") repeat;
+	height: auto !important;
+	min-height: 100%;
+	overflow-y: scroll;	
+	position: relative;
+}
+
+body {
+	background: none;
+	font-size: 16px;
+	font-family: $OpenSans;
+	height: 100%;
+	margin-bottom: 736px;
+	padding-top: 78px;
+	@include text-center-fix;
+	@media (min-width: $break-lg-phone) {
+		margin-bottom: 300px;
+		padding-top: 0;
+	}
+}
+
+/* --- Container --- */
+
+.container {
+	@media (min-width: $break-desktop) {
+		width: 1132px;
+	}
+}
+
+/* --- Module --- */
+
+.module, .feature-block, .content-post {@include mod-block;}
+
+.module:last-child  {margin-bottom: 0;}

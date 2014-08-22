@@ -1,0 +1,80 @@
+/* --- Content  --- */
+
+#content {background: url(../images/bg-header-border.jpg) repeat-x left top;}
+
+/* --- Content Wrap --- */
+
+.content-wrap {
+	background: url(../images/bg-content-wrap.jpg) repeat;
+	margin: -105px auto 0;
+	padding: 15px 20px 25px;
+	box-shadow: 0 0 15px rgba(0,0,0,0.25);
+	@media (min-width: $break-tiny-phone) {}
+	@media (min-width: $break-sm-phone) {margin-top: -98px;}
+	@media (min-width: $break-lg-phone) {margin-top: -80px;}
+}
+
+/* --- Main Content  --- */
+
+.main-content {
+	margin-bottom: 15px;
+	padding-right: 0;
+	padding-left: 0;
+	@media (min-width: $break-lg-phone) {
+		margin-bottom: 0;
+		padding-right: 25px;
+		padding-left: 0;
+	}
+}
+
+/* --- Sidebar --- */
+
+.sidebar {
+	padding: 0;
+	h2 {
+		text-align: center;
+	}
+	@media (min-width: $break-lg-phone) {
+		h2 {font-size: 1em;}
+	}
+}
+
+/* --- Home Page Layout --- */
+
+.home {
+	.content-wrap {padding: 15px;}
+}
+
+/* --- One Col Layout --- */
+
+/*
+.one-col {
+	.content-wrap {
+		max-width: 800px;
+		padding: 20px 30px;
+	}
+	.main-content {
+		margin-bottom: 0;
+		padding: 0;
+	}
+}
+*/
+
+/* --- Sidebar Left Layout --- */
+
+.sidebar-left {
+	.content-wrap {}
+	.main-content {
+		margin-bottom: 0;
+		@media (min-width: $break-lg-phone) {
+			padding-right: 0;
+			padding-left: 20px;
+		}
+	}
+	.sidebar {
+		margin-bottom: 15px;
+		@media (min-width: $break-lg-phone) {
+			margin-bottom: 0;
+		}
+	}
+}

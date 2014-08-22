@@ -1,0 +1,59 @@
+/* --- Buttons --- */
+
+.btn {
+	background-color: $secondary-blue;
+	color: white;
+	font-family: $Montserrat;
+	font-size: 10px;
+	padding: 4px 10px;
+	text-shadow: $blk-text-shadow-neg;
+	text-transform: uppercase;
+	border-radius: 0;
+	transition: opacity 0.3s ease;
+	a {	
+		color:white;
+		font-size: 10px;
+	}
+	&:before, &:after {font-family: $FontAwesome;}
+	&:after {
+		content: "";
+		font-size: 12px;
+		line-height: 0;
+		padding-left: 5px;
+	}
+	@media (min-width: $break-sm-phone) {
+		font-size: 9px;
+		a {font-size: 9px;}
+	}
+}
+
+.readon a, .read-more-btn, .btn-link a span, {@extend .btn;}
+
+.rss-btn {display: none;}
+
+.btn-inline {
+	background: none;
+	color: $secondary-blue;
+	font-weight: 700;
+	padding: 0;
+	text-shadow: none;
+}
+
+.btn-primary, .btn-danger, .btn-success, .btn-warning, .btn-info, .label {text-shadow: $blk-text-shadow-neg;}
+
+.btn-default, .btn-link {text-shadow: none;}
+
+.btn:hover {
+	color: white;
+	opacity: 0.7;
+}
+
+/* --- BTN-LINK  --- */
+
+.btn-link {
+	text-align: center;
+	a span {
+		font-size: 12px;
+		padding: 5px 15px;
+	}
+}

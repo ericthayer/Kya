@@ -1,0 +1,57 @@
+// Media Queries
+
+$grid-gutter-width: 30px; // gutter width
+
+$grid-columns: 12; // columns
+
+$break-tiny-phone: 19.938em; // 319px 
+
+$break-sm-phone: 30em; // 480px 
+
+$break-lg-phone: 47.938em; // 767px 
+
+$break-tablet: 62em; // 992px 
+
+$break-desktop: 75em; // 1200px 
+
+// Global Colors
+
+$warning-red: #a02626;
+
+$primary-blue: #114582;
+
+$secondary-blue: #1861b6;
+
+$light-blue: #2BACE0;
+
+$active-blue-bg: #9fc2eb;
+
+$active-blue: #325987;
+
+$red-label-bg: #9b4242;
+
+$border-bot-white: 1px solid rgba(255,255,255,0.3);
+
+// Text Shadow
+
+$wht-text-shadow: 0 1px 0 rgba(255,255,255,0.35);
+
+$blk-text-shadow: 1px 1px 1px rgba(0,0,0,0.35);
+
+$blk-text-shadow-neg: 0 -1px 1px rgba(0,0,0,0.25);
+
+// Specific Helpers
+
+$nav-span-bg: rgba(17,69,130,0.95);
+
+// Font Stacks
+
+$Helvetica: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+$Raleway: 'Raleway', sans-serif;
+
+$Montserrat: 'Montserrat', sans-serif;
+
+$OpenSans: 'Open Sans', sans-serif;
+
+$FontAwesome: 'FontAwesome';
