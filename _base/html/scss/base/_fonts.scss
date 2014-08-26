@@ -6,16 +6,35 @@
 
 @import url('http://fonts.googleapis.com/css?family=Alfa+Slab+One|Nixie+One|Arbutus+Slab|Noto+Sans|Cabin|Fauna+One|ABeeZee|Oldenburg|Syncopate|Molle:400italic|Wendy+One|Kameron|Copse|Muli|Candal|Merienda+One|Fjalla+One|Signika|Kaushan+Script|Enriqueta|Damion|Allerta+Stencil|Volkhov|Trocchi|Sansita+One|Alice|Ultra|Quando|Capriola|Expletus+Sans');
 
-.review {
+$kya-green: #2d912d;
+
+.main-content.review {
+	padding: 0;
 	h1 {
 		background-color: white;
 		border: 1px solid #DDD;
-		color: #2d912d;
+		color: $kya-green;
 		font-size: 3.5em;
-		margin: 1.5em auto;
+		line-height: normal;
+		margin: 30px auto;
 		padding: 15px;
+		position: relative;
 		text-align: center;
+		vertical-align: top;
 		width: 85%;
+		z-index: 1;
+		&:before {
+			//font: 14px arial;
+			background: $kya-green;
+			color: white;
+			font-size: 14px;
+			position: absolute;
+			padding: 7px 18px 15px 10px;
+			top:0;
+			left:0;
+			z-index: 0;
+			border-radius: 0 0 100px 0;
+		}
 		span {
 			display: block;
 			margin: 15px 0;
@@ -35,47 +54,109 @@
 
 .f1 {
 	font-family: 'Alfa Slab One', cursive;
-	span {
+	&:before {content: '1';}
+	span:last-child {
 		font-size: 80px;
 		&:after {content:'[ Alfa Slab One ]'}
 	}
 }
-.f2 {font-family: 'Nixie One', cursive;}
-.f3 {
+.f2 {
 	font-family: 'Arbutus Slab', serif;
-	span {
+	&:before {content: '2';}
+	span:last-child {
 		&:after {content:'[ Arbutus Slab ]'}
 	}
 }
-.f4 {font-family: 'Noto Sans', sans-serif;}
+.f3 {
+	font-family: 'Molle', cursive;
+	font-size: 75px !important;
+	font-style: italic;
+	&:before {content: '3';}
+	span:last-child {
+		&:after {content:'[ Molle ]'}
+	}
+}
+
+.f4 {
+	font-family: 'Candal', sans-serif;
+	font-size: 65px !important;
+	&:before {content: '4';}
+	span:last-child {
+		&:after {content:'[ Candal ]'}
+	}
+}
+.f5 {
+	font-family: 'Enriqueta', serif;
+	&:before {content: '5';}
+	span:last-child {
+		&:after {content:'[ Enriqueta ]'}
+	}
+}
+
+.f6 {
+	font-family: 'Allerta Stencil', sans-serif;
+	&:before {content: '6';}
+	span:last-child {
+		&:after {content:'[ Allerta Stencil ]'}
+	}
+}
+
+.f7 {
+	font-family: 'Trocchi', serif;
+	&:before {content: '7';}
+	span:last-child {
+		&:after {content:'[ Trocchi ]'}
+	}
+}
+
+.f8 {
+	font-family: 'Alice', serif;
+	&:before {content: '8';}
+	span:last-child {
+		&:after {content:'[ Alice ]'}
+	}
+}
+.f9 {
+	font-family: 'Ultra', serif;
+	&:before {content: '9';}
+	span:last-child {
+		&:after {content:'[ Ultra ]'}
+	}
+}
+.f10 {
+	font-family: 'Quando', serif;
+	&:before {content: '10';}
+	span:last-child {
+		&:after {content:'[ Quando ]'}
+	}
+}
+.f11 {
+	font-family: 'Capriola', sans-serif;
+	&:before {content: '11';}
+	span:last-child {
+		&:after {content:'[ Capriola ]'}
+	}
+}
+.f12 {
+	font-family: 'Expletus Sans', cursive;
+	&:before {content: '12';}
+	span:last-child {
+		&:after {content:'[ Expletus Sans ]'}
+	}
+}
+/*
 .f5 {font-family: 'Cabin', sans-serif;}
 .f6 {font-family: 'Fauna One', serif;}
 .f7 {font-family: 'ABeeZee', sans-serif;}
 .f8 {font-family: 'Oldenburg', cursive;}
 .f9 {font-family: 'Syncopate', sans-serif;}
-.f10 {
-	font-family: 'Molle', cursive;
-	span {
-		&:after {content:'[ Molle ]'}
-	}
-}
 .f11 {font-family: 'Wendy One', sans-serif;}
 .f12 {font-family: 'Kameron', serif;}
 .f13 {font-family: 'Copse', serif;}
 .f14 {font-family: 'Muli', sans-serif;}
-.f15 {font-family: 'Candal', sans-serif;}
+
 .f16 {font-family: 'Merienda One', cursive;}
 .f17 {font-family: 'Fjalla One', sans-serif;}
 .f18 {font-family: 'Signika', sans-serif;}
 .f19 {font-family: 'Kaushan Script', cursive;}
-.f20 {font-family: 'Enriqueta', serif;}
-.f21 {font-family: 'Damion', cursive;}
-.f22 {font-family: 'Allerta Stencil', sans-serif;}
-.f23 {font-family: 'Volkhov', serif;}
-.f24 {font-family: 'Trocchi', serif;}
-.f25 {font-family: 'Sansita One', cursive;}
-.f26 {font-family: 'Alice', serif;}
-.f27 {font-family: 'Ultra', serif;}
-.f28 {font-family: 'Quando', serif;}
-.f29 {font-family: 'Capriola', sans-serif;}
-.f30 {font-family: 'Expletus Sans', cursive;}
+*/
