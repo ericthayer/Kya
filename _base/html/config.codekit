@@ -133,94 +133,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/event-logo-NCLC.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 104006,
-		"inputAbbreviatedPath": "\/images\/event-logo-NCLC.jpg",
-		"outputAbbreviatedPath": "\/images\/event-logo-NCLC.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/feature-img-eNews-Guidelines.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 41807,
-		"inputAbbreviatedPath": "\/images\/feature-img-eNews-Guidelines.png",
-		"outputAbbreviatedPath": "\/images\/feature-img-eNews-Guidelines.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/feature-img-Submit-Article.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 46153,
-		"inputAbbreviatedPath": "\/images\/feature-img-Submit-Article.png",
-		"outputAbbreviatedPath": "\/images\/feature-img-Submit-Article.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/feature-img-Submit-Event.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 38324,
-		"inputAbbreviatedPath": "\/images\/feature-img-Submit-Event.png",
-		"outputAbbreviatedPath": "\/images\/feature-img-Submit-Event.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/feature-title-border.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1080,
-		"inputAbbreviatedPath": "\/images\/feature-title-border.png",
-		"outputAbbreviatedPath": "\/images\/feature-title-border.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/footer-logo-ministry.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 13724,
-		"inputAbbreviatedPath": "\/images\/footer-logo-ministry.png",
-		"outputAbbreviatedPath": "\/images\/footer-logo-ministry.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/footer-logo-serving.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6811,
-		"inputAbbreviatedPath": "\/images\/footer-logo-serving.png",
-		"outputAbbreviatedPath": "\/images\/footer-logo-serving.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/footer-nav-logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7116,
-		"inputAbbreviatedPath": "\/images\/footer-nav-logo.png",
-		"outputAbbreviatedPath": "\/images\/footer-nav-logo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/icons\/icon-fb.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -386,13 +298,101 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/logo-Navigators.png": {
-		"fileType": 32768,
+	"\/images\/review\/Kya_logo_review.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 54678,
-		"inputAbbreviatedPath": "\/images\/logo-Navigators.png",
-		"outputAbbreviatedPath": "\/images\/logo-Navigators.png",
+		"initialSize": 34758,
+		"inputAbbreviatedPath": "\/images\/review\/Kya_logo_review.jpg",
+		"outputAbbreviatedPath": "\/images\/review\/Kya_logo_review.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/review\/KyaMedia_logo_v1.1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32395,
+		"inputAbbreviatedPath": "\/images\/review\/KyaMedia_logo_v1.1.jpg",
+		"outputAbbreviatedPath": "\/images\/review\/KyaMedia_logo_v1.1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/review\/KyaMedia_logo_v1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34817,
+		"inputAbbreviatedPath": "\/images\/review\/KyaMedia_logo_v1.jpg",
+		"outputAbbreviatedPath": "\/images\/review\/KyaMedia_logo_v1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/review\/KyaMedia_logo_v2.1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41234,
+		"inputAbbreviatedPath": "\/images\/review\/KyaMedia_logo_v2.1.jpg",
+		"outputAbbreviatedPath": "\/images\/review\/KyaMedia_logo_v2.1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/review\/KyaMedia_logo_v2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39455,
+		"inputAbbreviatedPath": "\/images\/review\/KyaMedia_logo_v2.jpg",
+		"outputAbbreviatedPath": "\/images\/review\/KyaMedia_logo_v2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/review\/KyaMedia_logo_v3.1.1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41021,
+		"inputAbbreviatedPath": "\/images\/review\/KyaMedia_logo_v3.1.1.jpg",
+		"outputAbbreviatedPath": "\/images\/review\/KyaMedia_logo_v3.1.1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/review\/KyaMedia_logo_v3.1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36331,
+		"inputAbbreviatedPath": "\/images\/review\/KyaMedia_logo_v3.1.jpg",
+		"outputAbbreviatedPath": "\/images\/review\/KyaMedia_logo_v3.1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/review\/KyaMedia_logo_v3.2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36928,
+		"inputAbbreviatedPath": "\/images\/review\/KyaMedia_logo_v3.2.jpg",
+		"outputAbbreviatedPath": "\/images\/review\/KyaMedia_logo_v3.2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/review\/KyaMedia_logo_v3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28770,
+		"inputAbbreviatedPath": "\/images\/review\/KyaMedia_logo_v3.jpg",
+		"outputAbbreviatedPath": "\/images\/review\/KyaMedia_logo_v3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -537,6 +537,15 @@
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/logo-review.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/logo-review.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/one-column.html": {
 		"fileType": 8192,

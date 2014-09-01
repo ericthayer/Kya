@@ -21,12 +21,12 @@ body {
 	font-size: 16px;
 	font-family: $OpenSans;
 	height: 100%;
-	margin-bottom: 736px;
-	padding-top: 78px;
+	//margin-bottom: 736px;
+	padding-top: 50px;
 	@include text-center-fix;
 	@media (min-width: $break-lg-phone) {
-		margin-bottom: 300px;
-		padding-top: 0;
+		margin-bottom: 50px;
+		//padding-top: 0;
 	}
 }
 
